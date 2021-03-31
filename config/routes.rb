@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
-
-  devise_for :users
+  resources :carts, only: %i[ show update ]
   devise_for :admins
-  root 'categories#index'
+  devise_for :users
+  root 'home#index'
 
   authenticate :admin do 
     resources :products
