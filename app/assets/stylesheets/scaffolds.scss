@@ -1,4 +1,4 @@
-body {
+/*body {
   background-color: #fff;
   color: #333;
   margin: 33px; }
@@ -62,4 +62,19 @@ div.actions {
   list-style: square; }
 
 label {
-  display: block; }
+  display: block; } */
+
+
+  .fa-shopping-cart {
+    height: 1.3em;
+    color: rgba(0,0,0,.5);
+  
+    &:hover {
+      color: rgba(0,0,0,.75);
+    }
+  }
+  
+  .cart_quantity_number {
+    width: 50px;
+  }
+  
